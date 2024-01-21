@@ -1,6 +1,7 @@
 import Sidebar from "../sidebar/Sidebar";
 import "./navbar.scss";
 import { motion } from "framer-motion";
+
 const Navbar = () => {
   return (
     <div className="navbar">
@@ -12,7 +13,7 @@ const Navbar = () => {
           animate={{ opacity: 1, scale: 1 }}
           transition={{ duration: 0.5 }}
         >
-          Antonio Sgarito
+          {"< Dimensional Creators />"}
         </motion.span>
         <div className="social">
           <a href="#">
@@ -23,9 +24,6 @@ const Navbar = () => {
           </a>
           <a href="#">
             <img src="/youtube.png" alt="youtube" />
-          </a>
-          <a href="#">
-            <img src="/dribbble.png" alt="dribble" />
           </a>
         </div>
       </div>

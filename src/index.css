@@ -8,6 +8,7 @@ html {
   box-sizing: border-box;
   font-family: "DM Sans", sans-serif;
 }
+
 a {
   text-decoration: none;
   color: inherit;
@@ -20,4 +21,11 @@ body {
 section {
   height: 100vh;
   scroll-snap-align: center;
+}
+#Homepage {
+  overflow-y: hidden;
+}
+
+.wrapper {
+  padding: 0 150px;
 }
